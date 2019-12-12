@@ -1,0 +1,42 @@
+{
+    "hello": "Hello World",
+    "navbar": {
+        "home": "Home",
+        "about-me": "About Me",
+        "article": "Articles",
+        "edutacion": "Education",
+        "skills": "Skills",
+        "porfolio": "Portfolio",
+        "contact-me": "Contact Me"
+    },
+    "edutacion": {
+        "engineering": "Computer Engineering, University Centroccidental Lisandro Alvarado",
+        "system": "System Analyst, Central Western University Lisandro Alvarado",
+        "december": "December",
+        "july": "July",
+        "average": "Second average of the Sixty-fifth Promotion of Systems Analysts",
+        "performance": "High Performance Subject Introduction to Internet Systems, Database System and Information System",
+        "contest": "2011 UCLA ACM Local Programming Contest - UCLA Barquisimeto state Lara"
+    },
+    "aboutMe": {
+        "name": "Full Name",
+        "birthdate": "Birthdate",
+        "email": "Email",
+        "yes": "Yes",
+        "passport": "Passport",
+        "nationality": "Nationality",
+        "venezuelan": "Venezuelan",
+        "address": "Address",
+        "languages": "Languages",
+        "myLanguages": "Spanish (native), English",
+        "hobbies": "Hobbies",
+        "myHobbies": "Lectura, cine, fútbol, programar, cocinar"
+    },
+    "contactMe": {},
+    "footer": {
+        "madeBy": "Made By",
+        "contactMe": "Contact me",
+        "biography": "Biography",
+        "bio": " I consider myself constantly focused on achieving what I set my goals to meet the highest standards of code, responsible for my activities, fully committed to the project and my personal development and that of my colleagues."
+    }
+}

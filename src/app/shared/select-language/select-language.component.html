@@ -1,0 +1,16 @@
+<div class="flag">
+    <img [src]="flag" (click)="openSelector()">
+</div>
+
+<div class="list-flag" *ngIf="showHide">
+    <div class="list">
+        <div class="item" (click)="select('es')">
+            <img src="/assets/images/spain.png">
+            <span> Español </span>
+        </div>
+        <div class="item" (click)="select('en')">
+            <img src="/assets/images/united-kingdom.png">
+            <span> English </span>
+        </div>
+    </div>
+</div>

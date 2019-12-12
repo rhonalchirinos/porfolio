@@ -1,0 +1,42 @@
+{
+    "hello": "Hola Mundo!",
+    "navbar": {
+        "home": "Inicio",
+        "about-me": "Sobe Mi",
+        "article": "Articulos",
+        "edutacion": "Estudios formales",
+        "skills": "Habilidades",
+        "porfolio": "Portafolio",
+        "contact-me": "Contáctame"
+    },
+    "edutacion": {
+        "engineering": "Ingeniería en Informática, Universidad Centroccidental Lisandro Alvarado",
+        "system": "Analista de Sistema, Universidad Centroccidental Lisandro Alvarado",
+        "december": "Diciembre",
+        "july": "Julio",
+        "average": "Segundo promedio de la Sexagésima Quinta Promoción de Analistas de Sistemas",
+        "performance": "Alto Desempeño Asignatura Introducción a los Sistemas de Internet, Sistema de Base de Datos y Sistema de Información",
+        "contest": "2011 UCLA ACM Local Programming Contest – UCLA Barquisimeto estado Lara"
+    },
+    "aboutMe": {
+        "name": "Nombres Apellidos",
+        "birthdate": "Fecha de nacimiento",
+        "email": "Correo Electronico",
+        "passport": "Pasaporte",
+        "yes": "SI",
+        "nationality": "Nacionalidad",
+        "venezuelan": "Venezolano",
+        "address": "Dirección",
+        "languages": "Idioma",
+        "myLanguages": "Español (nativo),  Ingles",
+        "hobbies": "Hobies",
+        "myHobbies": "Reading, cinema, football, programming, cooking"
+    },
+    "contactMe": {},
+    "footer": {
+        "madeBy": "Hecho por",
+        "contactMe": "Cntáctame",
+        "biography": "Biografía",
+        "bio": "Me considero constante enfocado en conseguir lo que me propongo mis objetivos cumpliendo con los mas altos estándares de código, responsable con mis actividades, comprometido al máximo con el proyecto y con mi desarrollo personal y el de mis compañeros."
+    }
+}

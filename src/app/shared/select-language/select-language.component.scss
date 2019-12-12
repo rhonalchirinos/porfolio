@@ -1,0 +1,30 @@
+.list-flag {
+  position: absolute;
+  right: 0px;
+  background: gray;
+  border-radius: 10px;
+  width: 110px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.flag {
+  margin-top: 10px;
+}
+
+.list {
+  line-height: 0px;
+  .item {
+    height: 30px;
+    display: block;
+    text-align: center;
+    span {
+      position: relative;
+      bottom: 10px;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
