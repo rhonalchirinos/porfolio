@@ -22,4 +22,7 @@ export class NavbarComponent implements OnInit {
     this.translate.use(lang);
   }
 
+  doSomethingOnInternalScroll($event: Event) {
+    console.log('scroll: ', $event);
+  }
 }

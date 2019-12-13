@@ -160,144 +160,43 @@
             </h3>
         </div>
         <div class="row">
-
-
-            <div class="col s6 m4 l4">
-                <div class="card">
+            <div class="col s6 m4 l3" *ngFor="let item of skills">
+                <div class="card skill">
                     <div class="card-image">
-                        <img src="/assets/images/skills/angular.png">
+                        <img [src]="item.img">
                     </div>
                     <div class="card-content">
-                        <span class="card-title">ANGULAR</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
+                        <span class="card-title">{{item.title}}</span>
+                        <div>
+                            <div class="progress">
+                                <div class="determinate" [style.width.%]="item.percentage"></div>
+                            </div>
+                            <span> {{ 'skills.knowledgeLevel' | translate  }}</span>
+                            <span style="float:right"> {{item.percentage}} %</span>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
 
 
-            <div class="col s6 m4 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/php.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">PHP</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
-            <div class="col s6 m4 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/laravel.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Laravel</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s6 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/node.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">NODEJS</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s6 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/vuejs.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">VUEJS</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s6 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/ionic.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">IONIC</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section id="porfolio">
+    <div class="container">
+        <div class="row">
+            <h3>
+                <img src="/assets/images/porfolio.png" style="width: 42px;">
+                {{ 'navbar.porfolio'  | translate }}
+            </h3>
+        </div>
+        <div class="row">
 
 
-            <div class="col s6 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/gcloud.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">GCLOUD</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
-            <div class="col s6 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/java.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">JAVA</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col s6 m4 l4">
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/skills/rxjs.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">RXJS</span>
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>

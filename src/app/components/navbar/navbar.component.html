@@ -1,26 +1,30 @@
-<nav role="navigation">
-  <div class="nav-wrapper container">
-    <a href="#" class="brand-logo">Logo</a>
+<div class="navbar-fixed">
 
-    <ul class="right hide-on-med-and-down">
+  <nav role="navigation" class="black" (window:scroll)="doSomethingOnInternalScroll($event)">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">
+        <img src="/assets/images/rho.png">
+      </a>
 
-      <li><a href="#home" [translate]="'navbar.home'"></a></li>
-      <li><a href="#about-me" [translate]="'navbar.about-me'"></a></li>
-      <li><a href="#edutacion" [translate]="'navbar.edutacion'"></a></li>
-      <li><a href="#skills" [translate]="'navbar.skills'"></a></li>
-      <li><a href="#porfolio" [translate]="'navbar.porfolio'"></a></li>
-      <li><a href="#article" [translate]="'navbar.article'"></a></li>
-      <li><a href="#footer" [translate]="'navbar.contact-me'"></a></li>
-      <li>
-        <app-select-language (onChange)="onChangeLanguge($event)" [currentLanguage]="language"></app-select-language>
-      </li>
-    </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#home" [translate]="'navbar.home'"></a></li>
+        <li><a href="#about-me" [translate]="'navbar.about-me'"></a></li>
+        <li><a href="#edutacion" [translate]="'navbar.edutacion'"></a></li>
+        <li><a href="#skills" [translate]="'navbar.skills'"></a></li>
+        <li><a href="#porfolio" [translate]="'navbar.porfolio'"></a></li>
+        <li><a href="#article" [translate]="'navbar.article'"></a></li>
+        <li><a href="#footer" [translate]="'navbar.contact-me'"></a></li>
+        <li>
+          <app-select-language (onChange)="onChangeLanguge($event)" [currentLanguage]="language"></app-select-language>
+        </li>
+      </ul>
+      <ul class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
 
-    <ul class="sidenav">
-      <li><a href="#">Navbar Link</a></li>
-    </ul>
-    <a class="sidenav-trigger">
-      <i class="material-icons">menu</i>
-    </a>
-  </div>
-</nav>
+</div>

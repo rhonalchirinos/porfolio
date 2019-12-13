@@ -7,7 +7,8 @@
         "edutacion": "Estudios formales",
         "skills": "Habilidades",
         "porfolio": "Portafolio",
-        "contact-me": "Contáctame"
+        "contact-me": "Contáctame",
+        "art": "El arte de programar"
     },
     "edutacion": {
         "engineering": "Ingeniería en Informática, Universidad Centroccidental Lisandro Alvarado",
@@ -38,5 +39,8 @@
         "contactMe": "Cntáctame",
         "biography": "Biografía",
         "bio": "Me considero constante enfocado en conseguir lo que me propongo mis objetivos cumpliendo con los mas altos estándares de código, responsable con mis actividades, comprometido al máximo con el proyecto y con mi desarrollo personal y el de mis compañeros."
+    },
+    "skills": {
+        "knowledgeLevel": "Nivel de conocimiento "
     }
 }
