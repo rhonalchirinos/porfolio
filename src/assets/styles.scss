@@ -2,6 +2,20 @@
 
 @import "~materialize-css";
 
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url(/assets/fonts/ubuntu/Ubuntu-B.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'ubuntu-l';
+  src: url(/assets/fonts/ubuntu/Ubuntu-L.ttf) format('truetype');
+}
+ 
+
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
 }

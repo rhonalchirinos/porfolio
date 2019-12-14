@@ -23,6 +23,6 @@ export class NavbarComponent implements OnInit {
   }
 
   doSomethingOnInternalScroll($event: Event) {
-    console.log('scroll: ', $event);
+    //console.log('scroll: ', $event);
   }
 }
