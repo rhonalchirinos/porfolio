@@ -1,6 +1,5 @@
-<div class="navbar-fixed">
-
-  <nav role="navigation" class="black" (window:scroll)="doSomethingOnInternalScroll($event)">
+ <div class="navbar-fixed" [class.top]="isTop" (window:scroll)="onScroll($event)">
+  <nav role="navigation" class="black" >
     <div class="nav-wrapper container">
       <a href="#" class="brand-logo">
         <img src="/assets/images/rho.png">

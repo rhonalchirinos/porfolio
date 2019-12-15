@@ -9,12 +9,14 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavbarComponent implements OnInit {
 
   language: string;
+  isTop: boolean;
 
   constructor(private translate: TranslateService) {
   }
 
   ngOnInit() {
     this.language = 'en';
+    this.isTop = true;
   }
 
   onChangeLanguge(lang: string) {
@@ -22,7 +24,7 @@ export class NavbarComponent implements OnInit {
     this.translate.use(lang);
   }
 
-  doSomethingOnInternalScroll($event: Event) {
-    console.log('scroll: ', $event);
+  onScroll($event) {
+    this.isTop = $event.pageY < 50;
   }
 }
