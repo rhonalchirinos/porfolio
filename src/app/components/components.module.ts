@@ -4,11 +4,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SharedModule } from '../shared/shared.module';
 import { TranslateModule } from '@ngx-translate/core';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    SliderComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   exports: [
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    SliderComponent
   ],
 })
 export class ComponentsModule { }

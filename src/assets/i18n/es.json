@@ -31,14 +31,16 @@
         "languages": "Idioma",
         "myLanguages": "Español (nativo),  Ingles",
         "hobbies": "Hobies",
-        "myHobbies": "Reading, cinema, football, programming, cooking"
+        "myHobbies": "Reading, cinema, football, programming, cooking",
+        "biography": "Biografía",
+        "bio": "Me considero constante enfocado en conseguir lo que me propongo mis objetivos cumpliendo con los mas altos estándares de código, responsable con mis actividades, comprometido al máximo con el proyecto y con mi desarrollo personal y el de mis compañeros."
     },
     "contactMe": {},
     "footer": {
         "madeBy": "Hecho por",
         "contactMe": "Cntáctame",
         "biography": "Biografía",
-        "bio": "Me considero constante enfocado en conseguir lo que me propongo mis objetivos cumpliendo con los mas altos estándares de código, responsable con mis actividades, comprometido al máximo con el proyecto y con mi desarrollo personal y el de mis compañeros."
+        "myArt": "La programación es mi arte"
     },
     "skills": {
         "knowledgeLevel": "Nivel de conocimiento "

@@ -1,17 +1,21 @@
 #skills {
+  margin-top: 20px;
   .skill {
     .progress {
       margin-bottom: 4px;
     }
     span {
-        font-size: 12px;
-        font-weight: bold;
-        color: gray;
-
+      font-size: 12px;
+      font-weight: bold;
+      color: gray;
     }
-    .card-title{
-        text-align: center;
-        font-size: 14px;
+    .card-title {
+      text-align: center;
+      font-size: 14px;
     }
   }
+}
+
+#about-me {
+  margin-top: 20px;
 }

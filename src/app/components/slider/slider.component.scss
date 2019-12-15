@@ -1,0 +1,23 @@
+.my-self {
+  font-family: ubuntu-l;
+  font-size: 18px;
+
+  opacity: 1;
+  color: white;
+  background: #300a24;
+
+  .texto {
+    opacity: 1;
+    top: 5px;
+  }
+
+  .terminal {
+    font-family: ubuntu;
+    font-weight: bold;
+    color: #28f600;
+  }
+   
+  a {
+    color:white;
+  }
+}
