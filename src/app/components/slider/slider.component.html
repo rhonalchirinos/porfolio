@@ -1,50 +1,29 @@
 <div class="slider">
     <ul class="slides">
-        <li class="active my-self" style="opacity: 1">
-            <div class="container" style="margin-top: 60px;">
-                <div class="row">
-                    <div class="texto">
-                        <div>
-                            <span class="terminal">rhonal@rhonal:~$ </span>
-                            <span class="command"> ls </span>
-                        </div>
-                        <div>
-                            <span> my-presentation.js </span>
-                        </div>
-                        <div>
-                            <span class="terminal"> rhonal@rhonal:~$ </span>
-                            <span class="command"> node
-                                <a href="https://gist.githubusercontent.com/rhonalchirinos/c71b6216a517d702a390b807f644dd3b/raw/4e344652ae2a13bc7a7f68e0eadeeb3b30fd07d5/my-presentation.js"
-                                    target="_blank">
-                                    my-presentation.js
-                                </a>
-                            </span>
-
-                        </div>
-                        <div>
-                            <span style="display: block; font-size: 24px">
-                                Rhonal Alfredo Chirinos Rodriguez
-                            </span>
-                            <span style="display: block; font-size: 24px">
-                                Developer node, php, java.
-                            </span>
-                        </div>
-                        <div>
-                            <span class="terminal"> rhonal@rhonal:~$ </span>
-                            <span class="command" appTerminalPrompt> | </span>
-                        </div>
+        <ng-container>
+            <li *ngFor="let item of sliders" [ngClass]="{'active' : show === item }">
+                <ng-container *ngIf="item.type === 'html' ; else sliderImagen">
+                    <app-my-self> </app-my-self>
+                </ng-container>
+                <ng-template #sliderImagen>
+                    <img [src]="item.src">
+                    <div class="caption left-align">
+                        <h3>{{item.title}}</h3>
+                        <h5 class="light grey-text text-lighten-3">{{item.caption}}</h5>
                     </div>
-                </div>
-            </div>
-        </li>
+                </ng-template>
+            </li>
+        </ng-container>
     </ul>
-
 </div>
 <div>
     <ul class="indicators">
-        <li class="indicator-item"></li>
-        <li class="indicator-item"></li>
-        <li class="indicator-item"></li>
-        <li class="indicator-item active"></li>
+        <ng-container>
+            <li class="indicator-item" *ngFor="let item of sliders; let i = index">
+                <i (click)="active(i)" class="fa " aria-hidden="true"
+                    [ngClass]="{'fa-circle' : show === item, 'fa-circle-o' : show !== item }">
+                </i>
+            </li>
+        </ng-container>
     </ul>
 </div>
