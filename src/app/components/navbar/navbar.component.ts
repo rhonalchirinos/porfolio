@@ -25,6 +25,11 @@ export class NavbarComponent implements OnInit {
   }
 
   onScroll($event) {
-    this.isTop = $event.pageY < 50;
+    const verticalOffset = window.pageYOffset
+      || document.documentElement.scrollTop
+      || document.body.scrollTop || 0;
+    console.log(verticalOffset);
+    this.isTop = verticalOffset < 50;
+
   }
 }

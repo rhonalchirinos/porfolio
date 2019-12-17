@@ -5,12 +5,14 @@ import { FooterComponent } from './footer/footer.component';
 import { SharedModule } from '../shared/shared.module';
 import { TranslateModule } from '@ngx-translate/core';
 import { SliderComponent } from './slider/slider.component';
+import { MySelfComponent } from './my-self/my-self.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     FooterComponent,
-    SliderComponent
+    SliderComponent,
+    MySelfComponent
   ],
   imports: [
     CommonModule,
