@@ -44,5 +44,67 @@
     },
     "skills": {
         "knowledgeLevel": "Nivel de conocimiento "
+    },
+    "porfolio": {
+        "glovoDelosi": {
+            "title": "Glovo Delosi",
+            "description": "Integracion entre Glovo app y delosi \"KFC, PH, BK, MAS \" para peru.  ",
+            "participation": "Desarrollador Full stack, participe en el desarrollo del panel administartivo, asi como el comsumo de apis para el registro de los pedidos con cola de procesos, configuracion de colas de procesos y redis en servidor de produccion",
+            "tecnology": "Laravel 5.8, Vuejs, Redis, Horizon, Servidores Linux."
+        },
+        "zagasport": {
+            "title": "Zaga Sport",
+            "description": " ZagaSport aplicaicon dedicada a los amantes del mundo deportivo, arma tu perfil futbolero y invita a tu amigos caimaneras entre equipos, publica las mejores jugadas a travez de videos, fotos y aumenta tu nivel obteniendo like para tus publicaciones.",
+            "participation": "participe en los modulos de publicaciones de imagenes, fotos, texto, comentarios, reportes de usuarios, reporte de publicaciones, bloqueo de usuarios, notificaciones, desarrolle el panel adminsitrativo, responsable de la puesta en marcha y de los servicios de los ambientes de desarrollo y produccion, responsable de revisar los avances probar y pasar cambios a produccion.",
+            "tecnology": "Laravel 5.8, Angular 7, Ionic, Android, Php, Redis, Horizon, Gcloud, Servidores Linux."
+        },
+        "enviamelo": {
+            "title": "Enviamelo",
+            "description": "Aplicacion de tracking de paquetes para tiendas de ecomerce",
+            "participation": "Participe en integracion con apis externas para registro de solicutres, panel administrativo, web site asi como backend, configuracion de colas de procesos y redis en servidor de produccion",
+            "tecnology": "Laravel 5.8, Vuejs, Redis, Horizon, Servidores Linux."
+        },
+        "cbs": {
+            "title": "CBS",
+            "description": "Control de citas y documentos de clientes",
+            "participation": "Lider de desarrollo, gestion de tareas de los desarrolladores asi como probar avances de la aplicacion y puesta en produccion",
+            "tecnology": "Laravel 5.8, Angular 7, Redis, Horizon, Servidores Linux."
+        },
+        "smartmarket": {
+            "title": "Smart Market",
+            "description": "Aplicacion para gestionar compras a travez de app",
+            "participation": "Desarrollador full stack integracion con metodos de pago ",
+            "tecnology": "Laravel 5.7, Angular 7, Ionic 3, Android, Php, Redis, Horizon, Servidores Linux."
+        },
+        "mueve": {
+            "title": "Mueve te mueve",
+            "description": "Gestion de flota vehicular, lleve el control de su flota de transporte en tiempo real asi como las operaciones",
+            "participation": "Desarrollador Full Stack",
+            "tecnology": "Angular, Express, Nodejs, Servidores Linux."
+        },
+        "goldex": {
+            "title": "Goldex",
+            "description": "Control de Cobros de prestamos de Jolleria Goldex",
+            "participation": "Desarrollador Full Stack",
+            "tecnology": "Laravel 5.6"
+        },
+        "renacer": {
+            "title": "Renacer",
+            "description": "Sistema de gestion de funerarias, Gestion de operaciones, facturacion, almacen, cobradores y control de cobros a clinetes.",
+            "participation": "Desarrollador Full Stack.",
+            "tecnology": "Ruby on Rails, Postgres, Ruby, procesos en segundo plano, Servidores Linux"
+        },
+        "gorrion": {
+            "title": "Gorrion",
+            "description": "Modulo de gestion de inventarios a sistema administrativos",
+            "participation": "Desarrollador Full Stack.",
+            "tecnology": "Ruby on Rails, Postgres, Ruby, procesos en segundo plano, Servidores Linux"
+        },
+        "demeter": {
+            "title": "Demeter",
+            "description": "Sistema de gestion administrativa, modulo de facturacion, notas de credito, notas de debito, puesta en marcha.",
+            "participation": "Desarrollador Full Stack.",
+            "tecnology": "Java, Zk, Hibernate, Spring, Postgres SQl, Servidores Linux "
+        }
     }
 }
