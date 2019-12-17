@@ -58,15 +58,15 @@
 
 -->
 
-<section id="home" style="margin-top: 35px">
+<section id="home" >
     <app-slider></app-slider>
 </section>
 
 <section id="about-me">
     <div class="container">
         <div class="row">
-            <h3>
-                <img src="/assets/images/perfil.png" style="width: 42px;">
+            <h3 class="title-top">
+                <img src="/assets/images/perfil.png">
                 {{ 'navbar.about-me'  | translate }}
             </h3>
         </div>
@@ -120,8 +120,8 @@
 <section id="edutacion">
     <div class="container">
         <div class="row">
-            <h3>
-                <img src="/assets/images/toga.png" style="width: 42px;">
+            <h3 class="title-top">
+                <img src="/assets/images/toga.png">
                 {{ 'navbar.edutacion'  | translate }}
             </h3>
         </div>
@@ -168,8 +168,8 @@
 <section id="skills">
     <div class="container">
         <div class="row">
-            <h3>
-                <img src="/assets/images/skill.png" style="width: 42px;">
+            <h3 class="title-top">
+                <img src="/assets/images/skill.png">
                 {{ 'navbar.skills'  | translate }}
             </h3>
         </div>
@@ -195,26 +195,303 @@
     </div>
 </section>
 
-
-
-
 <section id="porfolio">
     <div class="container">
         <div class="row">
-            <h3>
-                <img src="/assets/images/porfolio.png" style="width: 42px;">
+            <h3 class="title-top">
+                <img src="/assets/images/porfolio.png" style="width: 20px;">
                 {{ 'navbar.porfolio'  | translate }}
             </h3>
         </div>
-        <div class="item">
-            <div class="left">
-                <img src="" alt="imaen">
-            </div>
-            <div class="right">
-              <h3>  Zaga Sport  </h3>
-              <p>
+        <div class="row">
 
-              </p>
+            <div class="col s12 m12 l12">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="/assets/images/porfolio/glovo.png" width="40px">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <a href="https://glovodelosiback.ecomerciar.com" target="_blank">
+                                <h2 class="header">{{ 'porfolio.glovoDelosi.title' | translate }}</h2>
+                            </a>
+                            <div class="description">
+                                {{ 'porfolio.glovoDelosi.description' | translate }}
+                            </div>
+
+                            <div class="participation">
+                                {{ 'porfolio.glovoDelosi.participation' | translate }}
+                            </div>
+
+                            <div class="tecnology">
+                                {{ 'porfolio.glovoDelosi.tecnology' | translate }}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l12">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="/assets/images/porfolio/zagasport.png" width="40px">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+
+                            <a href="https://play.google.com/store/apps/details?id=com.grupozagasystem.zagasport&hl=es"
+                                target="_blank">
+                                <h2 class="header">{{ 'porfolio.zagasport.title' | translate }}</h2>
+                            </a>
+                            <div class="description">
+                                {{ 'porfolio.zagasport.description' | translate }}
+                            </div>
+
+                            <div class="participation">
+                                {{ 'porfolio.zagasport.participation' | translate }}
+                            </div>
+
+                            <div class="tecnology">
+                                {{ 'porfolio.zagasport.tecnology' | translate }}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/enviamelo.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+
+                        <a href="https://enviamelo.com.ar/" target="_blank">
+                            <h2 class="header">{{ 'porfolio.enviamelo.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.enviamelo.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.enviamelo.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.enviamelo.tecnology' | translate }}
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/cbs.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <a href="https://app.cbsfinancialcpa.com" target="_blank">
+                            <h2 class="header">{{ 'porfolio.cbs.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.cbs.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.cbs.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.cbs.tecnology' | translate }}
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/icon.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+
+                        <a href="https://play.google.com/store/apps/details?id=com.jorgealmao.smartmarket&hl=es"
+                            target="_blank">
+                            <h2 class="header">{{ 'porfolio.smartmarket.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.smartmarket.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.smartmarket.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.smartmarket.tecnology' | translate }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12" *ngIf="seeMore === false" style="margin-bottom: 50px;">
+
+            <div style="text-align: center;">
+                <button class="btn waves-effect black" (click)="onSeeMore()">
+                    {{ 'seeMore' | translate }}
+                </button>
+            </div>
+
+        </div>
+
+        <div class="col s12 m12 l12" *ngIf="seeMore">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/nofount.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <a href="#" target="_blank">
+                            <h2 class="header">{{ 'porfolio.mueve.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.mueve.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.mueve.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.mueve.tecnology' | translate }}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12" *ngIf="seeMore">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/nofount.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+
+                        <a href="#" target=" _blank">
+                            <h2 class="header">{{ 'porfolio.goldex.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.goldex.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.goldex.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.goldex.tecnology' | translate }}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12" *ngIf="seeMore">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/nofount.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+
+                        <a href="#" target=" _blank">
+                            <h2 class="header">{{ 'porfolio.renacer.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.renacer.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.renacer.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.renacer.tecnology' | translate }}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12" *ngIf="seeMore">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/nofount.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+
+                        <a href="#" target=" _blank">
+                            <h2 class="header">{{ 'porfolio.gorrion.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.gorrion.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.gorrion.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.gorrion.tecnology' | translate }}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12" *ngIf="seeMore">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="/assets/images/porfolio/nofount.png" width="40px">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+
+                        <a href="#" target=" _blank">
+                            <h2 class="header">{{ 'porfolio.demeter.title' | translate }}</h2>
+                        </a>
+                        <div class="description">
+                            {{ 'porfolio.demeter.description' | translate }}
+                        </div>
+
+                        <div class="participation">
+                            {{ 'porfolio.demeter.participation' | translate }}
+                        </div>
+
+                        <div class="tecnology">
+                            {{ 'porfolio.demeter.tecnology' | translate }}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

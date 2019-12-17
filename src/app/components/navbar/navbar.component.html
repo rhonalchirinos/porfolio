@@ -1,5 +1,5 @@
- <div class="navbar-fixed" [class.top]="isTop" (window:scroll)="onScroll($event)">
-  <nav role="navigation" class="black" >
+<div class="navbar-fixed" [class.top]="isTop" (window:scroll)="onScroll($event)">
+  <nav role="navigation" class="black">
     <div class="nav-wrapper container">
       <a href="#" class="brand-logo">
         <img src="/assets/images/rho.png">
@@ -11,7 +11,7 @@
         <li><a href="#edutacion" [translate]="'navbar.edutacion'"></a></li>
         <li><a href="#skills" [translate]="'navbar.skills'"></a></li>
         <li><a href="#porfolio" [translate]="'navbar.porfolio'"></a></li>
-        <li><a href="#article" [translate]="'navbar.article'"></a></li>
+        <!-- <li><a href="#article" [translate]="'navbar.article'"></a></li> -->
         <li><a href="#footer" [translate]="'navbar.contact-me'"></a></li>
         <li>
           <app-select-language (onChange)="onChangeLanguge($event)" [currentLanguage]="language"></app-select-language>

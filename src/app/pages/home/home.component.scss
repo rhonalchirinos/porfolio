@@ -1,5 +1,11 @@
+#edutacion {
+  margin-top: 25px;
+  padding-top: 44px;
+}
+
 #skills {
-  margin-top: 20px;
+  margin-top: 25px;
+  padding-top: 44px;
   .skill {
     .progress {
       margin-bottom: 4px;
@@ -16,6 +22,53 @@
   }
 }
 
+#porfolio {
+  margin-top: 25px;
+  padding-top: 44px;
+
+  .card-image {
+    img {
+      width: 125px;
+      height: 125px;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  }
+  .header {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+  .card-content {
+    .description {
+      margin-top: 15px;
+    }
+    .participation {
+      margin-top: 15px;
+    }
+
+    .tecnology {
+      color: gray;
+      font-weight: bolder;
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid #e1dfdf;
+    }
+  }
+}
+
 #about-me {
-  margin-top: 20px;
+  margin-top: 25px;
+  padding-top: 44px;
+}
+
+.title-top {
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 4px solid black;
+  padding-bottom: 5px;
+  img {
+    width: 24px;
+  }
 }

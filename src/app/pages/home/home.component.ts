@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-home',
@@ -8,10 +9,12 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   skills: any[];
+  seeMore: boolean;
 
   constructor() { }
 
   ngOnInit() {
+    this.seeMore = false;
     this.skills = [
       {
         img: '/assets/images/skills/angular.png',
@@ -61,6 +64,9 @@ export class HomeComponent implements OnInit {
     ];
   }
 
+  onSeeMore() {
+    this.seeMore = true;
+  }
 
 }
 

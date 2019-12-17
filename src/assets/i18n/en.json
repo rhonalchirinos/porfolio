@@ -8,7 +8,7 @@
         "skills": "Skills",
         "porfolio": "Portfolio",
         "contact-me": "Contact Me",
-        "art" : "The art of programming"
+        "art": "The art of programming"
     },
     "edutacion": {
         "engineering": "Computer Engineering, University Centroccidental Lisandro Alvarado",
@@ -43,6 +43,69 @@
         "myArt": "Programming is my art"
     },
     "skills": {
-        "knowledgeLevel" :"Level of knowledge"
+        "knowledgeLevel": "Level of knowledge"
+    },
+    "porfolio": {
+        "seeMore": "see more",
+        "glovoDelosi": {
+            "title": "Glovo Delosi",
+            "description": "Integration between Glovoapp and Delosi Kentucky Fried Chicken, Pizza Hut, Burguer King, Starbucks for Peru",
+            "participation": "Full stack developer, participant in the development of the administrative panel, consumption of api for order registration, process queue configuration and production server",
+            "tecnology": "Laravel 5.8, Vuejs, Redis, Horizon, Servidores Linux"
+        },
+        "zagasport": {
+            "title": "Zaga Sport",
+            "description": "ZagaSport application dedicated to lovers of the sports world, build your soccer profile and invite your friends to caimaneras, publish the best plays through videos, photos and increase your level getting like in your publications",
+            "participation": "Full stack developer, develop modules for publishing images, photos, text, comments, user reports, publication reports, user blocking, notifications and administrative panel, I was responsible for the implementation of development and production environments",
+            "tecnology": "Laravel 5.8, Angular 7, Ionic, Android, Php, Redis, Horizon, Gcloud, Servidores Linux"
+        },
+        "enviamelo": {
+            "title": "Enviamelo",
+            "description": "Package tracking application for ecomerce stores",
+            "participation": "Full stack developer, participant in the integration of external api for the registration of shipments, administrative panel, web site, configuration of process queues and production environment",
+            "tecnology": "Laravel 5.8, Vuejs, Redis, Horizon, Servidores Linux."
+        },
+        "cbs": {
+            "title": "CBS",
+            "description": "Control of appointments and documents",
+            "participation": "Project manager, developer task management, application progress and production start-up",
+            "tecnology": "Laravel 5.8, Angular 7, Redis, Horizon, Servidores Linux."
+        },
+        "smartmarket": {
+            "title": "Smart Market",
+            "description": "Application to manage purchases through app",
+            "participation": "Full stack developer, development of all application modules as well as integration with payment method",
+            "tecnology": "Laravel 5.7, Angular 7, Ionic 3, Android, Php, Redis, Horizon, Servidores Linux."
+        },
+        "mueve": {
+            "title": "Mueve te mueve",
+            "description": "Vehicle fleet management, keep track of your transport fleet in real time",
+            "participation": "Full Stack Developer",
+            "tecnology": "Angular, Express, SocketIo, Nodejs, Servidores Linux"
+        },
+        "goldex": {
+            "title": "Goldex",
+            "description": "Collection Control of Goldex Jewelry Loans",
+            "participation": "Full Stack Developer",
+            "tecnology": "Laravel 5.6"
+        },
+        "renacer": {
+            "title": "Renacer",
+            "description": "Funeral management system, operations management, billing, warehousing, bill collectors and billing control",
+            "participation": "Full Stack Developer",
+            "tecnology": "Ruby on Rails, Postgres, Ruby, procesos en segundo plano, Servidores Linux"
+        },
+        "gorrion": {
+            "title": "Gorrion",
+            "description": "Inventory management module to administrative system",
+            "participation": "Full Stack Developer",
+            "tecnology": "Ruby on Rails, Postgres, Ruby, procesos en segundo plano, Servidores Linux"
+        },
+        "demeter": {
+            "title": "Demeter",
+            "description": "Administrative management system, billing module, credit notes, debit notes, commissioning",
+            "participation": "Full Stack Developer",
+            "tecnology": "Java, Zk, Hibernate, Spring, Postgres SQl, Servidores Linux "
+        }
     }
 }
