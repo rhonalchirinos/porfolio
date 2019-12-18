@@ -57,17 +57,12 @@ export class SliderComponent implements OnInit, OnDestroy {
 
   }
 
-  active(i){
+  active(i) {
     this.show = this.sliders[i];
-
   }
 
   ngOnDestroy(): void {
     this.subscribe.unsubscribe();
   }
-
-  
-
-
 
 }

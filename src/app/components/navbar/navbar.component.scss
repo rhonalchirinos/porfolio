@@ -1,14 +1,12 @@
-
-  nav {
-    .brand-logo {
-      img {
-        width: 25px;
-        height: 40px;
-        margin-top: 10px;
-      }
+nav {
+  .brand-logo {
+    img {
+      width: 25px;
+      height: 40px;
+      margin-top: 10px;
     }
   }
-
+}
 
 .top {
   nav {
@@ -22,5 +20,33 @@
         margin-top: 10px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .brand-logo {
+    img {
+      height: 35px;
+    }
+  }
+
+  .show {
+    display: block !important;
+    float: left !important;
+    width: 100%;
+    background: black;
+    list-style-type: unset;
+    li {
+      transition: unset;
+      float: unset;
+      padding: unset;
+    }
+  }
+}
+
+.navbar-item {
+  &:hover {
+    background: white !important;
+    color: black !important;
   }
 }

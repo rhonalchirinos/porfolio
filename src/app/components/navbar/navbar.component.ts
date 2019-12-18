@@ -10,6 +10,7 @@ export class NavbarComponent implements OnInit {
 
   language: string;
   isTop: boolean;
+  showMenu: boolean;
 
   constructor(private translate: TranslateService) {
   }
@@ -17,6 +18,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
     this.language = 'en';
     this.isTop = true;
+    this.showMenu = false;
   }
 
   onChangeLanguge(lang: string) {
@@ -29,6 +31,10 @@ export class NavbarComponent implements OnInit {
       || document.documentElement.scrollTop
       || document.body.scrollTop || 0;
     this.isTop = verticalOffset < 50;
-
   }
+
+  onShowMenu() {
+    this.showMenu = !this.showMenu;
+  }
+
 }

@@ -5,24 +5,24 @@
         <img src="/assets/images/rho.png">
       </a>
 
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#home" [translate]="'navbar.home'"></a></li>
-        <li><a href="#about-me" [translate]="'navbar.about-me'"></a></li>
-        <li><a href="#edutacion" [translate]="'navbar.edutacion'"></a></li>
-        <li><a href="#skills" [translate]="'navbar.skills'"></a></li>
-        <li><a href="#porfolio" [translate]="'navbar.porfolio'"></a></li>
-        <!-- <li><a href="#article" [translate]="'navbar.article'"></a></li> -->
-        <li><a href="#footer" [translate]="'navbar.contact-me'"></a></li>
+      <a class="sidenav-trigger" (click)="onShowMenu()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+
+
+      <ul class="right hide-on-med-and-down" [class.show]="showMenu">
+        <li><a class="navbar-item" href="#home" [translate]="'navbar.home'"></a></li>
+        <li><a class="navbar-item" href="#about-me" [translate]="'navbar.about-me'"></a></li>
+        <li><a class="navbar-item" href="#edutacion" [translate]="'navbar.edutacion'"></a></li>
+        <li><a class="navbar-item" href="#skills" [translate]="'navbar.skills'"></a></li>
+        <li><a class="navbar-item" href="#porfolio" [translate]="'navbar.porfolio'"></a></li>
+        <!-- <li><a class="navbar-item"  href="#article" [translate]="'navbar.article'"></a></li> -->
+        <li><a class="navbar-item" href="#footer" [translate]="'navbar.contact-me'"></a></li>
         <li>
           <app-select-language (onChange)="onChangeLanguge($event)" [currentLanguage]="language"></app-select-language>
         </li>
       </ul>
-      <ul class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a class="sidenav-trigger">
-        <i class="material-icons">menu</i>
-      </a>
+
     </div>
   </nav>
 
