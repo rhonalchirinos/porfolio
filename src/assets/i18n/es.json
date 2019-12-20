@@ -50,14 +50,14 @@
         "seeMore": "Ver mas",
         "glovoDelosi": {
             "title": "Glovo Delosi",
-            "description": "Integración entre Glovoapp y Delosi Kentucky Fried Chicken, Pizza Hut, Burguer King, Starbucks para peru",
+            "description": "Integración entre Glovo App y Delosi “Kentucky Fried Chicken, Pizza Hut, Burguer King, Starbucks”",
             "participation": "Desarrollador Full stack, partícipe en el desarrollo del panel administrativo, consumo de api para el registro de pedidos, configuración de colas de procesos y servidor de producción",
             "tecnology": "Laravel 5.8, Vuejs, Redis, Horizon, Servidores Linux"
         },
         "zagasport": {
             "title": "Zaga Sport",
-            "description": "ZagaSport aplicación dedicada a los amantes del mundo deportivo, arma tu perfil futbolero y invita a tu amigos a caimaneras, pública las mejores jugadas a través de videos, fotos y aumenta tu nivel obteniendo like en tus publicaciones",
-            "participation": "Desarrollador Full stack, desarrolle los modulos de publicacion de imagenes, fotos, texto, comentarios, reportes de usuarios, reportes de publicaciones, bloqueo de usuarios, notificaciones y panel administrativo, fui el responsable de la puesta en marcha de  ambientes de desarrollo y producción",
+            "description": "Aplicación dedicada a los amantes del mundo deportivo, arma tu perfil futbolero y invita a tu amigos a caimaneras, pública las mejores jugadas a través de vídeos, fotos y aumenta tu nivel obteniendo like en tus publicaciones",
+            "participation": "Desarrollador Full stack, desarrolle los módulos de ubicación de imágenes, fotos, texto, comentarios, reportes de usuarios, reportes de publicaciones, bloqueo de usuarios, notificaciones y panel administrativo, fui el responsable de la puesta en marcha de ambientes de desarrollo y producción",
             "tecnology": "Laravel 5.8, Angular 7, Ionic, Android, Php, Redis, Horizon, Gcloud, Servidores Linux"
         },
         "enviamelo": {
@@ -75,7 +75,7 @@
         "smartmarket": {
             "title": "Smart Market",
             "description": "Aplicación para gestionar compras a travésde app",
-            "participation": "Desarrollador Full stack,  desarrollo de todos los modulos de la aplicación asi como integración con método de pago",
+            "participation": "Desarrollador Full Stack,  desarrollo de todos los modulos de la aplicación asi como integración con método de pago",
             "tecnology": "Laravel 5.7, Angular 7, Ionic 3, Android, Php, Redis, Horizon, Servidores Linux."
         },
         "mueve": {
@@ -92,19 +92,19 @@
         },
         "renacer": {
             "title": "Renacer",
-            "description": "Sistema de gestión de funerarias, Gestion de operaciones, facturacion, almacen, cobradores y control de cobros a clinetes",
+            "description": "Sistema de gestión de funerarias, Gestión de operaciones, facturación, almacén, cobradores y control de cobros a clientes",
             "participation": "Desarrollador Full Stack",
             "tecnology": "Ruby on Rails, Postgres, Ruby, procesos en segundo plano, Servidores Linux"
         },
         "gorrion": {
             "title": "Gorrion",
-            "description": "Modulo de gestion de inventarios a sistema administrativos",
+            "description": "Modulo de gestión de inventarios a sistema administrativos",
             "participation": "Desarrollador Full Stack",
             "tecnology": "Ruby on Rails, Postgres, Ruby, procesos en segundo plano, Servidores Linux"
         },
         "demeter": {
             "title": "Demeter",
-            "description": "Sistema de gestion administrativa, modulo de facturacion, notas de credito, notas de debito, puesta en marcha",
+            "description": "Sistema de gestión administrativa, modulo de facturación, notas de crédito, notas de débito, puesta en marcha",
             "participation": "Desarrollador Full Stack",
             "tecnology": "Java, Zk, Hibernate, Spring, Postgres SQl, Servidores Linux "
         }

@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
       },
       {
         img: '/assets/images/skills/php.png',
-        title: 'Php',
+        title: 'PHP',
         percentage: 100
       },
       {
@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
       },
       {
         img: '/assets/images/skills/gcloud.png',
-        title: 'gcloud',
+        title: 'Gcloud',
         percentage: 55
       },
       {

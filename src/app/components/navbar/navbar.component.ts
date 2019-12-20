@@ -16,7 +16,8 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.language = 'en';
+ 
+    this.language = this.translate.store.currentLang;
     this.isTop = true;
     this.showMenu = false;
   }

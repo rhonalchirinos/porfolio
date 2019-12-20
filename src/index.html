@@ -25,10 +25,80 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/fav/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/fav/favicon-16x16.png">
 
+  <style type="text/css">
+    .lds-facebook {
+      background: #000000;
+      display: inline-block;
+      position: relative;
+      width: 80px;
+      height: 80px;
+      margin-left: 50%;
+      margin-top: 25%;
+    }
+
+    .lds-facebook div {
+      display: inline-block;
+      position: absolute;
+      left: 8px;
+      width: 16px;
+      background: #fff;
+      animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    }
+
+    .lds-facebook div:nth-child(1) {
+      left: 8px;
+      animation-delay: -0.24s;
+    }
+
+    .lds-facebook div:nth-child(2) {
+      left: 32px;
+      animation-delay: -0.12s;
+    }
+
+    .lds-facebook div:nth-child(3) {
+      left: 56px;
+      animation-delay: 0;
+    }
+
+    @keyframes lds-facebook {
+      0% {
+        top: 8px;
+        height: 64px;
+      }
+
+      50%,
+      100% {
+        top: 24px;
+        height: 32px;
+      }
+    }
+
+
+    .loading-modal {
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.99);
+
+    }
+  </style>
 </head>
 
 <body>
   <app-root></app-root>
+
+  <div class="loading-modal">
+    <div class="lds-facebook">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
 </body>
 
 </html>
