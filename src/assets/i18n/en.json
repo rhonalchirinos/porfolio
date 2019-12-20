@@ -12,7 +12,7 @@
     },
     "edutacion": {
         "engineering": "Computer Engineering, University Centroccidental Lisandro Alvarado",
-        "system": "System Analyst, Central Western University Lisandro Alvarado",
+        "system": "System Analyst, University Centroccidental Lisandro Alvarado",
         "december": "December",
         "july": "July",
         "average": "Second average of the Sixty-fifth Promotion of Systems Analysts",
@@ -25,6 +25,7 @@
         "email": "Email",
         "yes": "Yes",
         "passport": "Passport",
+        "backend": "I like the Backend",
         "nationality": "Nationality",
         "venezuelan": "Venezuelan",
         "address": "Address",

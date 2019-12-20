@@ -61,6 +61,31 @@ export class HomeComponent implements OnInit {
         title: 'Rxjs',
         percentage: 90
       },
+      {
+        img: '/assets/images/skills/mongoDB.png',
+        title: 'MongoDB',
+        percentage: 70
+      },
+      {
+        img: '/assets/images/skills/postgres.png',
+        title: 'Postgres',
+        percentage: 95
+      },
+      {
+        img: '/assets/images/skills/mysql.png',
+        title: 'Mysql',
+        percentage: 98
+      },
+      {
+        img: '/assets/images/skills/socketio.png',
+        title: 'Socket.io',
+        percentage: 85
+      },
+      {
+        img: '/assets/images/skills/ExpressJS.png',
+        title: 'Express',
+        percentage: 95
+      }
     ];
   }
 
