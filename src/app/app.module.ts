@@ -3,16 +3,32 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { ComponentsModule } from './components/components.module';
+import { HomeComponent } from './page/home/home.component';
+import { PorfolioComponent } from './page/porfolio/porfolio.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SkillsComponent } from './page/skills/skills.component';
+import { StudiesComponent } from './page/studies/studies.component';
+import { ArticlesComponent } from './page/articles/articles.component';
+ 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    PorfolioComponent,
+    SkillsComponent,
+    StudiesComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ComponentsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ 
+}

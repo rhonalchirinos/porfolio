@@ -1,0 +1,16 @@
+<section>
+    <div class="row">
+        <div class="col-12">
+            <p>
+                <fa-icon [icon]="faBookReader"></fa-icon>
+                <strong> Habilidades</strong>
+            </p>
+        </div>
+
+        <div class="col-md-3 col-sm-12" *ngFor="let item of _skills">
+            <div class="card p-2 mt-2 mb-2">
+                <img class="card-img-top" [src]="item.img">
+            </div>
+        </div>
+    </div>
+</section>

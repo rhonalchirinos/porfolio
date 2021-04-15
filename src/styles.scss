@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap";
+ 
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: url("./font/UbuntuMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: url("./font/UbuntuMono-Regular.ttf");
+}
+
+
+body {
+    font-family: 'SourceCodePro', "UbuntuMono", sans-serif;
+}
