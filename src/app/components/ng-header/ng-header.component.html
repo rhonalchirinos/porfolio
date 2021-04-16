@@ -1,25 +1,31 @@
 <nav class="navbar  navbar-expand-lg navbar-light py-4">
     <div class="container">
-        <a class="navbar-brand" routerLink="/">
-            <img src="/assets/images/rho.png" style="width: 22px;float: left; margin-left: 20px;">
+        <a class="navbar-brand" routerlink="/" style=" font-size: 20px; font-weight: bold; color: white;">
+            RHO
         </a>
-        <button class="navbar-toggler" type="button" (click)="onShow()" >
+        <button class="navbar-toggler" type="button" (click)="onShow()">
             <span class="navbar-toggler-icon" style="color:white"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" [ngClass]="{'show': navBar,  'collapsing': collapsing }">
+        <div class="collapse navbar-collapse justify-content-end"
+            [ngClass]="{'show': navBar,  'collapsing': collapsing }">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/porfolio">Portafolio</a>
+                    <a class="nav-link" style="font-weight: bold;" routerLink="/">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="'/skills'">Habilidades</a>
+                    <a class="nav-link" style="font-weight: bold;" routerLink="/porfolio">Portafolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/studies">Estudios</a>
+                    <a class="nav-link" style="font-weight: bold;" [routerLink]="'/skills'">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/articles">Articulos</a>
+                    <a class="nav-link" style="font-weight: bold;" routerLink="/studies">Estudios</a>
                 </li>
+                <!-- 
+                <li class="nav-item">
+                    <a class="nav-link" style="font-weight: bold;" routerLink="/articles">Articulos</a>
+                </li>
+                -->
             </ul>
         </div>
     </div>
