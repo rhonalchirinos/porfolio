@@ -1,14 +1,14 @@
 <section>
     <div class="row">
         <div class="col-12">
-            <p>
+            <p style="margin-top: 3rem; font-size: 20px;">
                 <fa-icon [icon]="faBookReader"></fa-icon>
                 <strong> Habilidades</strong>
             </p>
         </div>
 
         <div class="col-md-3 col-sm-12" *ngFor="let item of _skills">
-            <div class="card p-2 mt-2 mb-2">
+            <div class="card p-4 mt-3 mb-3">
                 <img class="card-img-top" [src]="item.img">
             </div>
         </div>

@@ -9,8 +9,9 @@ import { PorfolioComponent } from './page/porfolio/porfolio.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillsComponent } from './page/skills/skills.component';
 import { StudiesComponent } from './page/studies/studies.component';
-import { ArticlesComponent } from './page/articles/articles.component';
- 
+import { ArticlesComponent } from './page/articles/articles.component'; 
+import { AngularScrollAnimationsModule } from "angular-scroll-animations";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { ArticlesComponent } from './page/articles/articles.component';
     BrowserModule,
     AppRoutingModule,
     ComponentsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AngularScrollAnimationsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

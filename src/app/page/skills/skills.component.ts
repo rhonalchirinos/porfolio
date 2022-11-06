@@ -67,9 +67,29 @@ export class SkillsComponent implements OnInit {
       {
         img: '/assets/images/skills/ExpressJS.png',
         title: 'Express'
+      },
+      {
+        img: '/assets/images/skills/docker.png',
+        title: 'Docker'
+      },
+      {
+        img: '/assets/images/skills/git.png',
+        title: 'Git'
+      },
+      {
+        img: '/assets/images/skills/react.png',
+        title: 'React'
+      },
+      {
+        img: '/assets/images/skills/python.png',
+        title: 'Python'
+      },
+      {
+        img: '/assets/images/skills/aws.png',
+        title: 'AWS'
       }
-    ];
-   }
+    ].sort((a, b) => Number( a.title < b.title));
+  }
 
   ngOnInit(): void {
   }

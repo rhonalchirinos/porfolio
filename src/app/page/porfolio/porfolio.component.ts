@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faBookReader } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-porfolio',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PorfolioComponent implements OnInit {
 
+  faBookReader = faBookReader;
   constructor() { }
 
   ngOnInit(): void {

@@ -26,6 +26,8 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "angular-cli-ghpages": "^1.0.0-rc.1",
+    "angular-scroll-animations": "^1.1.3",
+    "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
